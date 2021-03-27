@@ -1,0 +1,18 @@
+## Import with pip install -r requirements.txt
+webexteamsbot
+configparser
+flask
+webexteamssdk
+requests
+pystache
+sqlalchemy
+pandas
+numpy
+apscheduler
+jsons
+beautifulsoup4
+lxml
+durations_nlp
+waitress
+loguru
+keyring

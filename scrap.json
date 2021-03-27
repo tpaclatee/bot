@@ -1,0 +1,11 @@
+{
+"State":"{State}",
+"PID" : "{PID}",
+"ProblemDetailsJSON": "{ProblemDetailsJSON}",
+"Tags": "{Tags}",
+"ProblemID":"{ProblemID}",
+"ProblemTitle":"{ProblemTitle}",
+"ProblemDetailsText":"{ProblemDetailsText}",
+"ProblemDetailsMarkdown":"{ProblemDetailsMarkdown}",
+"ProblemURL": "{ProblemURL}"
+}

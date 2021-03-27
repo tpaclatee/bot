@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>edu.umd.iocbot.daemon.plist</string>
+
+        <key>RunAtLoad</key>
+        <true/>
+
+        <key>KeepAlive</key>
+        <true/>
+
+        <key>StandardErrorPath</key>
+        <string>/Users/cmann/PycharmProjects/iocBot/deployed/prod/stderr.log</string>
+
+        <key>StandardOutPath</key>
+        <string>/Users/cmann/PycharmProjects/iocBot/deployed/prod/stdout.log</string>
+
+        <key>WorkingDirectory</key>
+        <string>/Users/cmann/PycharmProjects/iocBot/deployed/prod/</string>
+
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+
+        <key>ProgramArguments</key>
+        <array>
+            <string>/Users/cmann/.conda/envs/iocBot/bin/python3</string>
+            <string>bot.py</string>
+        </array>
+
+        <key>inetdCompatibility</key>
+        <dict>
+                <key>Wait</key>
+                <false/>
+        </dict>
+
+
+    </dict>
+</plist>
